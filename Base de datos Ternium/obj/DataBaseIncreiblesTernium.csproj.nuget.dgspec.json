@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\itoc2\\source\\repos\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\itoc2\\source\\repos\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itoc2\\source\\repos\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium.csproj",
+        "projectName": "DataBaseIncreiblesTernium",
+        "projectPath": "C:\\Users\\itoc2\\source\\repos\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium.csproj",
+        "packagesPath": "C:\\Users\\itoc2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itoc2\\source\\repos\\DataBaseIncreiblesTernium\\DataBaseIncreiblesTernium\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\itoc2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
