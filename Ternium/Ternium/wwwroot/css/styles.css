@@ -1,0 +1,28 @@
+﻿body {
+    background-color: #364352 !important;
+    color: white;
+}
+
+.headerLogIn {
+    margin-left: 42%;
+    font-size: 25px;
+}
+
+.loginContainer {
+    margin-left: 190px !important;
+    margin-right: 190px !important;
+}
+
+.centerBtn {
+    margin-left: 40%;
+}
+
+.jugar {
+    margin-top: 45% !important;
+    margin-left: 45% !important;
+}
+
+.tableLetters{
+    color: white !important;
+}
+
