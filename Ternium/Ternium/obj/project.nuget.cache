@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "q4CUCgM/uJ2w8RQ3OONjPb9Xr893mXFzySN2/YTr1ZRiL86kRvuwY0zsdnjWVOHL3FUD3dmPkX77nnl5wOtNmw==",
+  "success": true,
+  "projectFilePath": "/Users/valeriaconde/Documents/Ternium/Ternium/Ternium.csproj",
+  "expectedPackageFiles": [
+    "/Users/valeriaconde/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
