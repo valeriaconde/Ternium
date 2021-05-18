@@ -2,11 +2,11 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<br />
 
-<div class="loginContainer">
+<div class="loginPage">
     <div class="loginContainer">
-        <h1 class="headerLogIn"> Login </h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ternium_Logo.svg/1200px-Ternium_Logo.svg.png" alt="Ternium Logo" class="logo center"/>
+        <h1 class="center headerLogIn"> Iniciar sesión </h1>
         <br />
         <form action="Login/Form1" method="post">
             <div class="mb-3">
@@ -15,11 +15,10 @@
             <div class="mb-3">
                 <input asp-for="Password" type="password" class="form-control" placeholder="Contraseña">
             </div>
-            <button type="submit" class="btn btn-secondary centerBtn">Ingresar</button>
+            <div class="center">
+                <button type="submit" class="btn btn-secondary loginButton">Ingresar</button>
+            </div>
             <label>@Model.MessageX</label>
         </form>
     </div>
 </div>
-
-<br />
-<br />
