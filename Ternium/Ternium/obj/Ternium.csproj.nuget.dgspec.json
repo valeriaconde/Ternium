@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/valeriaconde/Documents/Ternium/Ternium/Ternium.csproj": {}
+    "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/Ternium.csproj": {}
   },
   "projects": {
-    "/Users/valeriaconde/Documents/Ternium/Ternium/Ternium.csproj": {
+    "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/Ternium.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/valeriaconde/Documents/Ternium/Ternium/Ternium.csproj",
+        "projectUniqueName": "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/Ternium.csproj",
         "projectName": "Ternium",
-        "projectPath": "/Users/valeriaconde/Documents/Ternium/Ternium/Ternium.csproj",
-        "packagesPath": "/Users/valeriaconde/.nuget/packages/",
-        "outputPath": "/Users/valeriaconde/Documents/Ternium/Ternium/obj/",
+        "projectPath": "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/Ternium.csproj",
+        "packagesPath": "/Users/tere/.nuget/packages/",
+        "outputPath": "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/valeriaconde/.config/NuGet/NuGet.Config"
+          "/Users/tere/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
