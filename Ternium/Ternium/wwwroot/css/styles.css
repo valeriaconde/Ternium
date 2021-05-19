@@ -8,6 +8,11 @@ body {
 .navTernium {
     background-color: #364352 !important;
     color: white !important;
+    
+}
+
+.orangeLetters {
+    color: #F25C29;
 }
 
 /* LOGIN CSS */
@@ -55,6 +60,12 @@ img{
     background-color: #C85A34;
 }
 
+/* PROFILE CSS */
+.corners {
+    border-radius: 50%;
+}
+
+
 /* JUEGO CSS */
 .jugar {
     margin-top: 45% !important;
@@ -63,10 +74,6 @@ img{
 
 
 /* LEADERBOARD CSS */
-.leaderboard {
-    color: #C85A34;
-}
-
 .my-custom-scrollbar {
     position: relative;
     height: 600px;
@@ -76,3 +83,16 @@ img{
 .table-wrapper-scroll-y {
     display: block;
 }
+
+.shadowTab {
+    box-shadow: 2px 2px 12px #000000;
+}
+
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+
+
+
+
