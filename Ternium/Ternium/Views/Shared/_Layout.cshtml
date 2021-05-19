@@ -18,16 +18,19 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="nav navbar-nav ml-auto">
-
-                        <li><a href="/login">login</a></li>
-                        <li><a href="/register">sign up</a></li>
-
+                        @{
+                            var x = new Byte[20];
+                            if (Context.Session.TryGetValue("user", out x))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light navTernium navbar-right" asp-area="" asp-controller="Logout" asp-action="Index">Cerrar sesión</a>
+                                </li>
+                            }
+                        }
                     </ul>
 
                     <ul class="navbar-nav mr-auto flex-grow-1">
                         @{
-
-                            var x = new Byte[20];
                             if (Context.Session.TryGetValue("user", out x))
                             {
                                 string user = System.Text.Encoding.UTF8.GetString(x);
@@ -39,10 +42,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-light navTernium" asp-area="" asp-controller="Leaderboard" asp-action="Index">Leaderboard</a>
-                                </li>
-
-                                <li class="nav-item justify-content-end">
-                                    <a class="nav-link text-light navTernium navbar-right" asp-area="" asp-controller="Logout" asp-action="Index">Cerrar sesión</a>
                                 </li>
                             }
                             else
