@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{216E644D-3D72-45E8-BDA0-C571F06BE447}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/wwwroot/css/styles.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/Views/Leaderboard/Index.cshtml">
     <Files>
-      <File FileName="Ternium/wwwroot/css/styles.css" Line="26" Column="17" />
-      <File FileName="Ternium/Views/Login/Index.cshtml" />
-      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" />
-      <File FileName="Ternium/Views/Shared/_Layout.cshtml" />
-      <File FileName="Ternium/Startup.cs" />
-      <File FileName="Ternium/Views/Home/Index.cshtml" />
+      <File FileName="Ternium/wwwroot/css/styles.css" Line="67" Column="18" />
+      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" Line="13" Column="39" />
+      <File FileName="Ternium/Startup.cs" Line="1" Column="1" />
+      <File FileName="Ternium/Views/Home/Index.cshtml" Line="1" Column="1" />
       <File FileName="Ternium/Controllers/HomeController.cs" />
+      <File FileName="Ternium/Views/Shared/_Layout.cshtml" Line="39" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,15 +17,17 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Leaderboard" expanded="True" />
+                <Node name="Leaderboard" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Login" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="styles.css" selected="True" />
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True" />
                 </Node>
-                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>

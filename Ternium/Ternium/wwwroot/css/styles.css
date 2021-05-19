@@ -1,4 +1,18 @@
-﻿body {
+﻿
+/* GENERAL CSS*/
+body {
+    background-color: white;
+    color: black;
+}
+
+.navTernium {
+    background-color: #364352 !important;
+    color: white !important;
+}
+
+/* LOGIN CSS */
+
+.loginBody {
     background-color: #364352 !important;
     color: white;
 }
@@ -41,13 +55,24 @@ img{
     background-color: #C85A34;
 }
 
+/* JUEGO CSS */
 .jugar {
     margin-top: 45% !important;
     margin-left: 45% !important;
 }
 
-.tableLetters{
-    color: white !important;
+
+/* LEADERBOARD CSS */
+.leaderboard {
+    color: #C85A34;
 }
 
-.
+.my-custom-scrollbar {
+    position: relative;
+    height: 600px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}

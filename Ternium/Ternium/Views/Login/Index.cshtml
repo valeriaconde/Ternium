@@ -3,22 +3,24 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="loginPage">
-    <div class="loginContainer">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ternium_Logo.svg/1200px-Ternium_Logo.svg.png" alt="Ternium Logo" class="logo center"/>
-        <h1 class="center headerLogIn"> Iniciar sesión </h1>
-        <br />
-        <form action="Login/Form1" method="post">
-            <div class="mb-3">
-                <input asp-for="UserLogin" class="form-control" id="exampleInputEmail1" placeholder="Usuario">
-            </div>
-            <div class="mb-3">
-                <input asp-for="Password" type="password" class="form-control" placeholder="Contraseña">
-            </div>
-            <div class="center">
-                <button type="submit" class="btn btn-secondary loginButton">Ingresar</button>
-            </div>
-            <label>@Model.MessageX</label>
-        </form>
+<body class="loginBody">
+    <div class="loginPage">
+        <div class="loginContainer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ternium_Logo.svg/1200px-Ternium_Logo.svg.png" alt="Ternium Logo" class="logo center" />
+            <h1 class="center headerLogIn"> Iniciar sesión </h1>
+            <br />
+            <form action="Login/Form1" method="post">
+                <div class="mb-3">
+                    <input asp-for="UserLogin" class="form-control" id="exampleInputEmail1" placeholder="Usuario">
+                </div>
+                <div class="mb-3">
+                    <input asp-for="Password" type="password" class="form-control" placeholder="Contraseña">
+                </div>
+                <div class="center">
+                    <button type="submit" class="btn btn-secondary loginButton">Ingresar</button>
+                </div>
+                <label>@Model.MessageX</label>
+            </form>
+        </div>
     </div>
-</div>
+</body>
