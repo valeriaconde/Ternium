@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/valeriaconde/.dotnet/store/|arch|/|tfm|",
-      "/Users/valeriaconde/.nuget/packages"
+      "/Users/tere/.dotnet/store/|arch|/|tfm|",
+      "/Users/tere/.nuget/packages"
     ]
   }
 }
