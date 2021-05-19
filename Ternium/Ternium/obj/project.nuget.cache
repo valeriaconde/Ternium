@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UDaGoIDZxNBoKPBe21okt5pM7WSRwhCuy9W6wdRmRA/ygLoyWeiFh8pq5n53OChWL2EC5p+xoNvadoBAWEdizA==",
+  "dgSpecHash": "8EtHh61xuptvX4d6dz1iEZMh9KkKVA6PyUOe28L08uGCkP0X7OrJFv85eWLIngGb6B+xKNhclG+FdiCaInSWMA==",
   "success": true,
-  "projectFilePath": "/Users/tere/ITC/3Semestre/Colada/Increibles/Ternium/Ternium/Ternium/Ternium.csproj",
+  "projectFilePath": "/Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/Ternium.csproj",
   "expectedPackageFiles": [
-    "/Users/tere/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+    "/Users/valeriaconde/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

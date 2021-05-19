@@ -3,6 +3,7 @@
 body {
     background-color: white;
     color: black;
+    font-family: 'tradegothiclt', sans-serif;
 }
 
 .navTernium {
@@ -110,7 +111,34 @@ img{
     display: none !important;
 }
 
+.ldTitle {
+    text-align: center;
+}
 
+.head {
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
 
+.leadBlue {
+    position: absolute;
+    border-bottom-right-radius: 50%;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 50px;
+    left: 0;
+}
 
+.leadRed {
+    position: absolute;
+    border-top-left-radius: 50%;
+    width: 300px;
+    bottom: 0px;
+    right: 0;
+    margin-bottom: 0px;
+}
 
+.whiteBack {
+    background-color: white;
+}
