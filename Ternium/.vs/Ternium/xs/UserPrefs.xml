@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{216E644D-3D72-45E8-BDA0-C571F06BE447}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/Views/Leaderboard/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Ternium/wwwroot/css/styles.css" Line="16" Column="2" />
-      <File FileName="Ternium/Views/Shared/_Layout.cshtml" Line="41" Column="30" />
-      <File FileName="Ternium/Views/Home/Index.cshtml" Line="58" Column="30" />
-      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" Line="9" Column="69" />
+      <File FileName="Ternium/Views/Shared/_Layout.cshtml" Line="30" Column="50" />
+      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" Line="9" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,11 +14,11 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Leaderboard" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Leaderboard" expanded="True" />
                 <Node name="Login" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
