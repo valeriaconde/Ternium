@@ -120,3 +120,5 @@
 /Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.dll
 /Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.pdb
 /Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.genruntimeconfig.cache
+/Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.1.json
+/Users/valeriaconde/Desktop/Ternium/Ternium/Ternium/obj/Debug/netcoreapp3.1/Razor/Views/Examen/Index.cshtml.g.cs

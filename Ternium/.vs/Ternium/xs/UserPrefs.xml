@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{216E644D-3D72-45E8-BDA0-C571F06BE447}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/Views/Leaderboard/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ternium/Views/Examen/Index.cshtml">
     <Files>
-      <File FileName="Ternium/wwwroot/css/styles.css" Line="120" Column="18" />
-      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" Line="9" Column="7" />
-      <File FileName="Ternium/Views/Home/Index.cshtml" />
+      <File FileName="Ternium/wwwroot/css/styles.css" Line="28" Column="1" />
+      <File FileName="Ternium/Views/Examen/Index.cshtml" Line="135" Column="7" />
+      <File FileName="Ternium/Views/Leaderboard/Index.cshtml" Line="122" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Ternium" expanded="True">
             <Node name="Ternium" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Examen" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
                 <Node name="Home" expanded="True" />
                 <Node name="Leaderboard" expanded="True" />
                 <Node name="Login" expanded="True" />

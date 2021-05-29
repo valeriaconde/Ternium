@@ -20,8 +20,33 @@ body {
     color: white;
 }
 
-/* LOGIN CSS */
 
+/* EXAMEN CSS */
+.right {
+    margin-right: 50px !important;
+}
+
+.examenContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px !important;
+    max-width: 500px;
+    display: flex;
+    text-align: center;
+}
+
+.form-check {
+    text-align: left;
+    margin: auto;
+}
+
+.form-check-input {
+    text-align: left;
+    margin:auto;
+}
+
+
+/* LOGIN CSS */
 .loginBody {
     background-color: #364352;
     background-image: url('https://i.pinimg.com/originals/24/6b/d2/246bd29ec0fe163432e52114fdf84679.jpg');
