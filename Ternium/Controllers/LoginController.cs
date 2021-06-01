@@ -22,13 +22,13 @@ namespace Ternium.Controllers
         public string Password { get; set; }
 
         [BindProperty]
-        public string MessageX { get; set; }
+        public string Alerta { get; set; }
 
-        public IActionResult Index()
+        public IActionResult Index(string Alerta = "")
         {
             var tmp = new LoginController
             {
-                MessageX = ""
+                Alerta = Alerta
             };
             return View(tmp);
         }
@@ -37,7 +37,7 @@ namespace Ternium.Controllers
         {
             var tmp = new LoginController
             {
-                MessageX = "Usuario o contraseña incorrectas"
+                Alerta = "Usuario o contraseña incorrectas"
             };
             return View(tmp);
         }
@@ -69,10 +69,14 @@ namespace Ternium.Controllers
                 HttpContext.Session.SetString("user", UserLogin);
                 HttpContext.Session.SetString("token", token);
                 return RedirectToAction("Index", "Home");
+            } else
+            {
+                return RedirectToAction("Index", "Login", new { Alerta = "Usuario o contraseña incorrecta"});
             }
 
             return View();
         }
+
         public void OnPost()
         {
             string connectionString = "Server=127.0.0.1;Port=3306;Database=bitacora;Uid=root;password=2105Itok/5012;";
