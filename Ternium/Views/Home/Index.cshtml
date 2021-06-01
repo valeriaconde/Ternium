@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Ternium.Controllers.HomeController
+@{
     ViewData["Title"] = "About";
 }
 
@@ -10,8 +11,8 @@
                 <br />
                 <div class="text-center">
                     <img src="~/images/profile.png" class="corners" alt="profile picture">
-                    <h5> Marco Del Valle </h5>
-                    <h6> mdelvalc@ternium.com.mx </h6>
+                    <h5> @Model.UserName </h5>
+                    <h6> TecEquipo4@ternium.com.mx </h6>
                     <br />
                     <button type="submit" class="btn btn-secondary loginButton"> Jugar </button>
                 </div>

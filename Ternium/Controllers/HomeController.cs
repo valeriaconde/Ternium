@@ -7,17 +7,23 @@ namespace Ternium.Controllers
 {
     public class HomeController : Controller
     {
-        public HomeController()
-        {
-        }
+        [BindProperty]
+        public string UserName { get; set; }
 
-        public IActionResult Index()
+        public IActionResult Index(string UserName = null)
         {
-            if (string.IsNullOrEmpty(HttpContext.Session.GetString("user")))
+            string user = HttpContext.Session.GetString("user");
+            if (string.IsNullOrEmpty(user))
             {
                 return RedirectToAction("Index", "Login");
             }
-            return View();
+
+            var tmp = new HomeController
+            {
+                UserName = UserName ?? user
+            };
+
+            return View(tmp);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

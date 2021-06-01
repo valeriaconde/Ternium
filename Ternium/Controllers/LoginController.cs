@@ -28,7 +28,7 @@ namespace Ternium.Controllers
         {
             var tmp = new LoginController
             {
-                Alerta = Alerta
+                Alerta = Alerta,
             };
             return View(tmp);
         }
