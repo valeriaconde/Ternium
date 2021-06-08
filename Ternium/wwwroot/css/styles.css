@@ -21,35 +21,49 @@ body {
 }
 
 
+/* LINKS */
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: solid;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: solid;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: solid;
+}
+
+
 /* EXAMEN CSS */
 .right {
-    margin-right: 50px !important;
+    margin-bottom: 30px;
+    margin-left: 360px;
 }
 
 .examenContainer {
     margin-left: auto;
     margin-right: auto;
     width: 500px !important;
-    max-width: 500px;
-    display: flex;
-    text-align: center;
-}
-
-.form-check {
-    text-align: left;
-    margin: auto;
-}
-
-.form-check-input {
-    text-align: left;
-    margin:auto;
 }
 
 
 /* LOGIN CSS */
 .loginBody {
     background-color: #364352;
-    background-image: url('https://i.pinimg.com/originals/24/6b/d2/246bd29ec0fe163432e52114fdf84679.jpg');
+    background-image: url('https://www.eleconomista.com.mx/__export/1520317968703/sites/eleconomista/img/2018/03/06/ternium_1.jpg_423392900.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -109,6 +123,9 @@ img{
     border-radius: 50%;
 }
 
+.medalSize {
+    width: 55px;
+}
 
 /* JUEGO CSS */
 .jugar {
@@ -166,4 +183,14 @@ img{
 
 .whiteBack {
     background-color: white;
+}
+
+.centerBtn {
+    margin: auto;
+    width: 40%;
+    positiom: absolute;
+}
+
+.btnLeaderboard {
+    display: grid;
 }

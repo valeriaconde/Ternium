@@ -1,28 +1,33 @@
 ﻿<Properties StartupConfiguration="{179267DA-2FA3-47CB-855B-AD71BD2B5DBC}|Ternium">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Leaderboard/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
     <Files>
-      <File FileName="Views/Leaderboard/Index.cshtml" Line="14" Column="20" />
-      <File FileName="Controllers/LeaderboardController.cs" Line="16" Column="44" />
+      <File FileName="wwwroot/css/styles.css" Line="195" Column="19" />
+      <File FileName="Views/Leaderboard/Index.cshtml" Line="16" Column="1" />
+      <File FileName="Views/Login/Index.cshtml" Line="20" Column="79" />
+      <File FileName="Controllers/LeaderboardController.cs" Line="16" Column="38" />
+      <File FileName="Controllers/HomeController.cs" Line="21" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Ternium" expanded="True">
             <Node name="Ternium" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Examen" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Leaderboard" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Jugar" expanded="True" />
+                <Node name="Leaderboard" expanded="True" />
                 <Node name="Login" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -36,5 +41,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Ternium PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Ternium PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
