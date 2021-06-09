@@ -37,12 +37,6 @@ namespace Ternium.Controllers
 
             ListaLeader = new List<UserLeaderboard>();
 
-            //users.Add(new UserLeaderboard { Name = "Valeria", Points = 15017, Rank = 1 });
-            //users.Add(new UserLeaderboard { Name = "Cristina", Points = 15017, Rank = 2 });
-            //users.Add(new UserLeaderboard { Name = "Lorena", Points = 15017, Rank = 3 });
-            //users.Add(new UserLeaderboard { Name = "Cruella", Points = 15017, Rank = 4 });
-            //users.Add(new UserLeaderboard { Name = "Tere", Points = 15017, Rank = 5 });
-
             string connectionString = "Server=127.0.0.1;Port=3306;Database=bitacora;Uid=root;password=rootroot;";
 
             MySqlConnection conexion = new MySqlConnection(connectionString);

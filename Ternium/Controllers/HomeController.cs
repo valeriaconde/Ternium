@@ -10,6 +10,9 @@ namespace Ternium.Controllers
         [BindProperty]
         public string UserName { get; set; }
 
+        [BindProperty]
+        public int Points { get; set; }
+
         public IActionResult Index(string UserName = null)
         {
             string user = HttpContext.Session.GetString("user");
@@ -20,8 +23,10 @@ namespace Ternium.Controllers
 
             var tmp = new HomeController
             {
-                UserName = UserName ?? user
+                UserName = UserName ?? user,
+                Points = 0
             };
+
 
             return View(tmp);
         }
