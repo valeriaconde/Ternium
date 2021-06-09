@@ -1,0 +1,152 @@
+﻿@model Ternium.Controllers.LeaderboardExController
+@{
+    ViewData["Title"] = "";
+}
+<h1>@ViewData["Title"]</h1>
+
+<img src="~/images/rojoternium.png" class="leadBlue" />
+<img src="~/images/azulternium.png" class="leadRed" />
+<h3 class="ldTitle"> Leaderboard </h3>
+
+<div class="btn-toolbar mb-6 centerBtn col-md-12 text-center" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group btn-group-sm" role="group" aria-label="First group">
+        <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Leaderboard")'"> Juego </button>
+        <button type="button" class="btn btn-outline-secondary active"> Examen </button>
+    </div>
+</div>
+
+
+<br />
+
+<body>
+    <div class="table-wrapper-scroll-y my-custom-scrollbar shadowTab whiteBack">
+        <table class="table table-hover">
+            <thead class="head">
+                <tr>
+                    <th scope="col">Lugar</th>
+                    <th scope="col">Inspector</th>
+                    <th scope="col">Puntos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1</td>
+                    <td> <a href="/Home?UserName=Cristina">Cristina</a> </td>
+                    <td> 19536 </td>
+                </tr>
+                <tr>
+                    <td scope="row">2</td>
+                    <td> Lorena </td>
+                    <td> 19536 </td>
+                </tr>
+                <tr>
+                    <td scope="row">3</td>
+                    <td> Valeria </td>
+                    <td> 18748 </td>
+                </tr>
+                <tr>
+                    <td scope="row">4</td>
+                    <td> David </td>
+                    <td> 17990 </td>
+                </tr>
+                <tr>
+                    <td scope="row">5</td>
+                    <td> Oscar </td>
+                    <td> 16103 </td>
+                </tr>
+                <tr>
+                    <td scope="row">6</td>
+                    <td> Juan </td>
+                    <td> 15539 </td>
+                </tr>
+                <tr>
+                    <td scope="row">7</td>
+                    <td> Tere </td>
+                    <td> 14473 </td>
+                </tr>
+                <tr>
+                    <td scope="row">8</td>
+                    <td> Ana </td>
+                    <td> 13103 </td>
+                </tr>
+                <tr>
+                    <td scope="row">9</td>
+                    <td> Dario </td>
+                    <td> 12103 </td>
+                </tr>
+                <tr>
+                    <td scope="row">9</td>
+                    <td> Carlos </td>
+                    <td> 12103 </td>
+                </tr>
+                <tr>
+                    <td scope="row">10</td>
+                    <td> Ricardo </td>
+                    <td> 11103 </td>
+                </tr>
+                <tr>
+                    <td scope="row">11</td>
+                    <td> Fernando </td>
+                    <td> 10203 </td>
+                </tr>
+                <tr>
+                    <td scope="row">12</td>
+                    <td> Alfonso </td>
+                    <td> 7890 </td>
+                </tr>
+                <tr>
+                    <td scope="row">13</td>
+                    <td> Jose </td>
+                    <td> 7830 </td>
+                </tr>
+                <tr>
+                    <td scope="row">14</td>
+                    <td> Ingrid </td>
+                    <td> 7102 </td>
+                </tr>
+                <tr>
+                    <td scope="row">15</td>
+                    <td> Cristobal </td>
+                    <td> 6383 </td>
+                </tr>
+                <tr>
+                    <td scope="row">16</td>
+                    <td> Aldo </td>
+                    <td> 4390 </td>
+                </tr>
+                <tr>
+                    <td scope="row">17</td>
+                    <td> Andrés </td>
+                    <td> 1500 </td>
+                </tr>
+                <tr>
+                    <td scope="row">18</td>
+                    <td> Ivan </td>
+                    <td> 401 </td>
+                </tr>
+                <tr>
+                    <td scope="row">19</td>
+                    <td> Mauricio </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td scope="row">20</td>
+                    <td> Edgar </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td scope="row">21</td>
+                    <td> Axel </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td scope="row">22</td>
+                    <td> Fabiana </td>
+                    <td> 0 </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<br />
+<br />

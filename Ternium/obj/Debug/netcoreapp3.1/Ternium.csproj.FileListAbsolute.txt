@@ -108,3 +108,4 @@
 /Users/valeriaconde/Desktop/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.dll
 /Users/valeriaconde/Desktop/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.pdb
 /Users/valeriaconde/Desktop/Ternium/Ternium/obj/Debug/netcoreapp3.1/Ternium.genruntimeconfig.cache
+/Users/valeriaconde/Desktop/Ternium/Ternium/obj/Debug/netcoreapp3.1/Razor/Views/LeaderboardEX/Index.cshtml.g.cs

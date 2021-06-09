@@ -22,5 +22,6 @@
     <Folder Include="Views\Leaderboard\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Examen\" />
+    <Folder Include="Views\LeaderboardEX\" />
   </ItemGroup>
 </Project>

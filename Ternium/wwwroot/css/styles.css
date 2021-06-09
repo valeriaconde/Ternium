@@ -188,9 +188,9 @@ img{
 .centerBtn {
     margin: auto;
     width: 40%;
-    positiom: absolute;
 }
 
-.btnLeaderboard {
-    display: grid;
+.btn-group, .btn-group-vertical {
+    width: 100%;
 }
+
