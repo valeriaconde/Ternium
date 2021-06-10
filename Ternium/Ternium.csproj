@@ -8,9 +8,11 @@
   <ItemGroup>
     <Content Remove="wwwroot\css\styles.css" />
     <Content Remove="Views\Home\Jugar.cshtml" />
+    <Content Remove="wwwroot\Build\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\styles.css" />
+    <None Include="wwwroot\Build\.DS_Store" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.25" />
@@ -23,5 +25,6 @@
     <Folder Include="wwwroot\images\" />
     <Folder Include="Views\Examen\" />
     <Folder Include="Views\LeaderboardEX\" />
+    <Folder Include="wwwroot\Build\" />
   </ItemGroup>
 </Project>

@@ -37,7 +37,7 @@ namespace Ternium.Controllers
 
             ListaLeader = new List<UserLeaderboard>();
 
-            string connectionString = "Server=127.0.0.1;Port=3306;Database=bitacora;Uid=root;password=rootroot;";
+            string connectionString = "Server=127.0.0.1;Port=3306;Database=actualizada;Uid=root;password=rootroot;";
 
             MySqlConnection conexion = new MySqlConnection(connectionString);
             conexion.Open();

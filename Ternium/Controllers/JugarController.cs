@@ -16,7 +16,7 @@ namespace Ternium.Controllers
         {
             if (string.IsNullOrEmpty(HttpContext.Session.GetString("user")))
             {
-                return RedirectToAction("Index", "Login");
+                return RedirectToAction("Index", "Jugar");
             }
             return View();
         }

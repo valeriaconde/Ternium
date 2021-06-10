@@ -123,7 +123,7 @@ CREATE TABLE `juego` (
   `PartidaID` int NOT NULL AUTO_INCREMENT,
   `Usuario` int NOT NULL,
   `Puntaje_Total` int NOT NULL,
-  `Nivel_Alcanzado` int NOT NULL,
+  `Tiempo_Juego` int NOT NULL,
   PRIMARY KEY (`PartidaID`),
   KEY `Usuario_ID_idx` (`Usuario`),
   CONSTRAINT `UserID` FOREIGN KEY (`Usuario`) REFERENCES `usuario` (`Usuario_ID`)
@@ -136,7 +136,7 @@ CREATE TABLE `juego` (
 
 LOCK TABLES `juego` WRITE;
 /*!40000 ALTER TABLE `juego` DISABLE KEYS */;
-INSERT INTO `juego` VALUES (1,2,5000,6),(2,4,2600,3),(3,1,1000,2),(4,5,5500,6),(5,3,3000,4);
+INSERT INTO `juego` VALUES (1,2,5000,16),(1,2,1000,12),(2,4,2600,13),(3,1,1000,12),(4,5,5500,16),(5,3,3000,14);
 /*!40000 ALTER TABLE `juego` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -215,7 +215,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'Pablo'),(2,'Jose'),(3,'Hector'),(4,'Maria'),(5,'Arturo');
+INSERT INTO `usuario` VALUES (1,'Pablo'),(2,'TecEquipo4'),(3,'Hector'),(4,'Maria'),(5,'Arturo');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

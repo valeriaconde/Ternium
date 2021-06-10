@@ -1,15 +1,9 @@
 ﻿<Properties StartupConfiguration="{179267DA-2FA3-47CB-855B-AD71BD2B5DBC}|Ternium">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/LeaderboardEX/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/LeaderboardController.cs">
     <Files>
-      <File FileName="Controllers/LeaderboardController.cs" Line="57" Column="17" />
-      <File FileName="Controllers/HomeController.cs" Line="36" Column="1" />
-      <File FileName="Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="Views/Leaderboard/Index.cshtml" Line="16" Column="1" />
-      <File FileName="Views/Home/Index.cshtml" Line="7" Column="1" />
-      <File FileName="Views/Login/Index.cshtml" Line="26" Column="8" />
-      <File FileName="Controllers/LoginController.cs" Line="1" Column="1" />
-      <File FileName="Controllers/LeaderboardExController.cs" Line="14" Column="9" />
-      <File FileName="Views/LeaderboardEX/Index.cshtml" Line="13" Column="118" />
+      <File FileName="wwwroot/Build/testgame6.loader.js" Line="1" Column="33" />
+      <File FileName="Views/Jugar/Index.cshtml" />
+      <File FileName="Controllers/LeaderboardController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +11,9 @@
           <Node name="Ternium" expanded="True">
             <Node name="Ternium" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="LeaderboardController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
@@ -25,14 +21,11 @@
                 <Node name="Home" expanded="True" />
                 <Node name="Jugar" expanded="True" />
                 <Node name="Leaderboard" expanded="True" />
-                <Node name="LeaderboardEX" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="LeaderboardEX" expanded="True" />
                 <Node name="Login" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
-                <Node name="images" expanded="True" />
+                <Node name="Build" expanded="True" />
               </Node>
             </Node>
           </Node>
